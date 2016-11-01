@@ -1,0 +1,56 @@
+
+#twitter_div{
+	width:140px;
+	height:140px;
+	text-align:center;
+	margin-left:35px;
+	margin-top:47px;
+	text-indent:0px;
+
+}
+
+#twitter_div a{
+	font-size:16px;
+	color:black;
+	text-decoration:none;
+    border-bottom: 1px dotted;
+}
+
+#twitter_div a:hover{
+	font-size:16px;
+	color:#3bc0ef;
+	text-decoration:none;
+    border:0;
+}
+
+#twitter_update_list{
+	font-family: Trebuchet MS;
+    text-decoration: none;
+    word-spacing: normal;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: 13px;
+    font-size: 11px;
+	color: #4b8bb9;
+	width:140px;
+	height:110px;
+	list-style:none;
+	display: table-cell; 
+	vertical-align: middle 
+
+	
+}
+#twitter_update_list a{
+	font-size:11px;
+	color:#3bc0ef;
+	text-decoration:underline;
+	border:0;
+
+}
+
+#twitter_update_list a:hover{
+    font-size:11px;
+	color:#3bc0ef;
+	text-decoration:none;
+    border:0;
+}

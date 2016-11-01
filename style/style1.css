@@ -1,0 +1,374 @@
+* {
+ margin: 0;
+}
+
+
+a:link {
+	color: #817367;
+
+}
+a:visited {
+
+	color: #817367;
+}
+a:hover {
+	text-decoration: none;
+	color: #FFFFFF;
+}
+
+a:active { outline: none; }
+a:focus { outline: none; }
+
+body, html {
+	height: 100%;
+	width:100%;
+	padding: 0;
+    margin: 0;
+	background-image:url(../images/bg-default.jpg);
+	background-position:center top;
+	background-repeat:no-repeat;
+	background-attachment:scroll;
+	display:block;
+	background-color:#1a1207;
+	font-family:"Helvetica Neue", Helvetica, Arial, Geneva, sans-serif;
+	font-size: 14px;
+	color: #936638;
+}
+
+.top {
+	height:33px;
+	width:100%;
+	min-width:1200px;
+}
+
+
+.language{
+	float:right;
+	width:200px;
+	height:33px;
+		text-indent:-9999px;
+	overflow:hidden;
+	margin-right:10px;
+	background-image:url(../images/language.png);
+	background-repeat:no-repeat;
+	background-position: 0px -33px;
+
+}
+
+.language:hover { background-position: 0px 0px;}
+
+#bg{
+	
+  position: absolute;
+  width: 100%;  
+}
+
+.logo{
+	
+	position: relative;
+	height:700px;
+	width:1200px;
+	display:block;
+	text-indent:-9999px;
+	overflow:hidden;
+	background-image:url(../images/logo.png);
+	background-repeat:no-repeat;
+	background-position: 170px -5px;
+	margin:0 auto;
+			
+}
+
+.ifword{
+	display:none;
+	
+}
+
+.contacts{   
+
+    position: absolute;
+    top: 240px;
+    left: 2px;
+    height:240px;
+	width:230px;
+		text-indent:-9999px;
+	overflow:hidden;
+	display:block;
+	background-image:url(../images/.png);
+	background-repeat:no-repeat;
+	background-position: 0px 0px;
+}
+
+#contacts_link{   
+
+    height:120px;
+	width:120px;
+	margin-left:30px;
+	margin-top:30px;
+	display:block;
+	
+}
+
+
+.portfolio{   
+
+    position: absolute;
+    top: 374px;
+    left: 202px;
+    height:322px;
+	width:272px;
+		text-indent:-9999px;
+	overflow:hidden;
+	display:block;
+	/*background-image:url(../images/portfolio.png);*/
+	background-image:url(../images/.png);
+	background-repeat:no-repeat;
+	background-position: 0px 0px;
+	
+}
+
+#portfolio_link{   
+
+    height:180px;
+	width:210px;
+	margin-left:30px;
+	margin-top:35px;
+	display:block;
+
+}
+
+.profile{   
+
+    position: absolute;
+    top: 305px;
+    left: 640px;
+    height:322px;
+	width:225px;
+		text-indent:-9999px;
+	overflow:hidden;
+	display:block;
+	background-image:url(../images/.png);
+	background-repeat:no-repeat;
+	background-position: 0px 0px;
+
+}
+
+#profile_link{   
+
+    height:155px;
+	width:170px;
+	margin-left:35px;
+	margin-top:30px;
+	display:block;
+	
+		
+}
+
+
+.research{   
+
+    position: absolute;
+    top: 45px;
+    left: 960px;
+    height:650px;
+	width:320px;
+	/* to use background image */
+	/*background-image:url(../images/twitter_eymoon.png) */
+	/*background-image:url(../images/blog_plus.png);*/
+	background-repeat:no-repeat;
+	background-position: 0px 0px;
+
+}
+
+#blog_link{   
+
+    height:155px;
+	width:150px;
+	
+	display:block;
+}
+
+
+
+
+/*--------Footer trick------------*/
+
+.wrapper {
+	min-height: 100%;
+	height: auto !important;
+	height: 100%;
+	margin: 0 auto -75px;
+
+	
+	
+ }
+ .footer, .push {
+   height: 75px;
+ }
+ .footer_help{
+	 height:730px; 
+	 width:100%;
+ }
+
+/*
+---------Footer--------------------
+*/
+.footer{
+	
+	width:100%;
+	min-width:1200px;
+
+	
+	
+}
+
+.line1{
+	width:100%;
+	height:50px;
+	
+	
+	}
+	
+.line2{
+	width:100%;
+	height:25px;
+	background-image:url(../images/footer_bg.png);
+	background-repeat:repeat;
+	
+	
+	}
+.footer_right{
+	float:right;
+	display:block;
+	text-align:right;
+	font-size:12px;
+	color: #6d6d6d;
+	padding-top:5px;
+	padding-right:10px;
+	
+	
+	}
+	
+.footer_right a{
+	text-decoration: none;
+	border-bottom: 1px dotted;
+}
+
+.footer_right a:hover {
+	text-decoration: none;
+	
+}
+
+.copyright
+{
+font-size:12px;
+color: #6d6d6d;
+padding-top:4px;
+float:left; 
+padding-left:10px; 
+}		
+.copyright a{
+	text-decoration: none;
+	border-bottom: 1px dotted;
+}
+.copyright a:hover {
+	text-decoration: none;
+	color: #FFFFFF;
+
+}
+
+.cc{
+	background-image: url(../images/cc_logo.png);
+	background-position: 0px 0px;
+	background-repeat:no-repeat;	
+	width:17px;
+	height:17px;
+	display:inline-block;
+	vertical-align:middle;
+
+}
+.apl{
+	background-image: url(../images/apple_logo.png);
+	background-position: 0px 0px;
+	background-repeat:no-repeat;	
+	width:17px;
+	height:17px;
+	display:inline-block;
+	vertical-align:middle;
+	text-indent:-9999px;
+	overflow:hidden;
+
+}
+
+	
+
+.awards{
+	float:left;
+	
+}
+
+.awards_button{
+	float:left;
+	width:122px;
+	height:44px;
+	margin-bottom:6px;
+	background-image:url(../images/awards.png);
+	background-repeat:no-repeat;
+	background-position:0px -88px;
+
+}
+.awards_button:hover, .awards_button:active   { background-position:0px -44px; }
+
+.awards_button_back {
+	display:block;
+	float:left;
+	width:122px;
+	height:44px;
+	margin-left:-122px;
+	margin-bottom:6px;
+	background-image:url(../images/awards_active.png);
+	background-repeat:no-repeat;
+	background-position:0px 0px;
+
+}
+
+.tray {width:600px; height:45px;}
+.tray ul {list-style:none;}
+.tray li {display:inline;}
+.tray img {border:0;}
+.tray li a {display:block; float:left; text-decoration:none; border:0; padding-right:3px;}
+
+#tt {position:absolute; display:block; background:url(../images/tips/tt_left.gif) top left no-repeat; overflow:hidden}
+#tttop {display:block; height:5px; margin-left:5px; background:url(../images/tips/tt_top.gif) top right no-repeat; overflow:hidden}
+#ttcont {display:block; padding:2px 12px 3px 7px; margin-left:5px; background:#666; color:#FFF; font-size:12px;overflow:hidden}
+#ttbot {display:block; height:5px; margin-left:5px; background:url(../images/tips/tt_bottom.gif) top right no-repeat; overflow:hidden}
+
+.close_button
+{
+	width:16px;
+	height:16px;
+	margin-top:5px;
+	background-image:url(../images/close.png);
+	background-repeat:no-repeat;
+	background-position: 0px 0px;
+
+}
+.divider{
+	padding-left:4px;
+	padding-right:4px;
+	color:#4a4a4a;
+
+}
+#world{
+	float:right;
+	width:590px;
+	height:42px;
+	margin-bottom:8px;
+	text-indent:-9999px;
+	overflow:hidden;
+	background-image:url(../images/world.png);
+	background-repeat:no-repeat;
+	background-position:23px -42px;
+
+}
+
+#world:hover { background-position:23px 0px; }

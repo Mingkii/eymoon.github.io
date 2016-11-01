@@ -1,0 +1,191 @@
+/*My website has the background color-#eee (grey), 
+also,designate several features of body section here*/
+body {
+	background-color:#eee; 
+	color:#666; 
+	font: 16px Georgia; 
+	text-align: justify; 
+	padding:0px; 
+	width:1000px;
+	margin: 0 auto;
+	line-height:130%;
+	word-spacing:1.5px;
+}
+/*This is a unique section, so I use 'id' to designate the characteristics of wrapper*/
+#wrap {
+	margin:0 auto;
+	background:#ffffff;
+}
+/*I designate the height of header section as 140px*/
+#header {
+	height: 140px;
+}
+/*I designate the position and color of text in the top section*/
+#htext {
+	padding-top: 40px;
+	padding-left: 30px;
+	color:#000000; 
+}
+/*designate the characteristic of hyperlink*/
+a { 
+	color:#788B9F;
+	text-decoration: none;	
+	border:none
+}
+
+a:hover{ 
+	color:#FF99FF;
+	text-decoration: underline;	
+}
+
+/*designate the border of image, in my web the image would have border and padding, and margin*/
+img.border {
+	border: 2px solid #aaa ;	
+	padding: 10px 10px 10px 10px;
+	margin: 5px 0px 0px 20px;
+
+}
+/*I designate the style of unordered list*/
+ul {
+	margin:0;
+	padding-left:0;
+	list-style:none;
+}
+
+
+/*Kright,Kright2,and Kright1 are used to present different unordered list*/
+.kright {
+	margin:0;
+	padding-left:10px;
+	padding-right:20px;
+	text-align: justify; 
+	list-style:square;
+	font: 14px Georgia;
+}
+
+.kright2 {
+	margin:0;
+	padding-left:15px;
+	padding-right:5px;
+	text-align: justify; 
+	list-style:square;
+	font: 14px Georgia;
+}
+
+.kright1 {
+	margin:0;
+	padding-left:15px;
+	padding-right:20px;
+	text-align: left; 
+	list-style:square;
+}
+
+.kright li {
+	margin:0;
+	padding-top:5px;
+}
+li {
+	margin:0;
+	padding-top:2px;
+}
+/*strong is colored with black*/
+strong {
+	color:#000000
+}
+
+/*In my website, each column is floating, and each feaeture is designed here*/
+.center_column {
+	position:relative;	
+	clear:both;
+	float:left;
+	width:100%;			
+	overflow:hidden;	
+	background:#ffffff;
+	
+}
+
+.column_right,
+.column_mid,
+.column_left {
+	float:left;
+	width:100%;			
+	position:relative;
+}
+.column_1,
+.column_2,
+.column_3 {
+	float:left;
+	position:relative;
+	padding:0 0 1em 0;	
+	overflow:hidden;
+}
+
+.column_1_full,
+.column_2_full,
+.column_3_full {
+	float:left;
+	position:relative;
+	padding:0 0 1em 0;	
+	overflow:hidden;
+}
+
+.threecolumn {
+}
+.threecolumn .column_mid {
+	right:25%;		
+}
+.threecolumn .column_left {
+	right:50%;			
+}
+.threecolumn .column_1 { 
+	padding-top:5px;
+	width:52%;			
+	left:96%;
+}
+
+.threecolumn .column_1_full { 
+	padding-top:0px;
+	width:74%;			
+	left:96%;			
+}
+.threecolumn .column_2 { 
+	padding-left:20px; 
+	width:18%;			
+	left:24%;
+}	
+.threecolumn .column_2_full { 
+	padding-left:20px; 
+	width:18%;			
+	left:2%;
+}			
+.threecolumn .column_3 {  
+	padding-left:20px; 
+	width:22%;			
+	left:78%;	
+	font: 18px Georgia; 
+}	
+	
+/* Footer styles */
+#footer {
+	clear:both;
+	float:left;
+	width:100%;
+	border-top:1px solid #000;
+}
+#footer p {
+	padding:10px;
+	margin:0;
+}
+
+/* LaTeX Hacks */
+/* designate font style and p style here */
+.cmr-12{font-size:120%;}
+.cmbx-12{font-size:120%; font-weight: bold;}
+.cmbx-10{ font-weight: bold;}
+.cmbx-8{font-size:80%; font-style:italic;}
+.cmti-10{ font-style: italic;}
+
+/*whether the paragraph would be indent or not*/
+p.noindent { text-indent: 0em }
+p.nopar { text-indent: 0em; }
+p.indent{ text-indent: 1.5em }

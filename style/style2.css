@@ -1,0 +1,89 @@
+* { margin: 0px; }
+a:link { color: rgb(129, 115, 103); }
+a:visited { color: rgb(129, 115, 103); }
+a:hover { text-decoration: none; color: rgb(255, 255, 255); }
+a:active { outline: medium none; }
+a:focus { outline: medium none; }
+body, html { height: 100%; width: 100%; padding: 0px; margin: 0px; background-image: url('bg-default.jpg'); background-position: center top; background-repeat: no-repeat; background-attachment: scroll; display: block; background-color: rgb(26, 18, 7); font-family: "Helvetica Neue",Helvetica,Arial,Geneva,sans-serif; font-size: 14px; color: rgb(147, 102, 56); }
+.top { height: 33px; width: 100%; min-width: 1200px; }
+.language { float: right; width: 200px; height: 33px; text-indent: -9999px; overflow: hidden; margin-right: 10px; background-image: url('language.png'); background-repeat: no-repeat; background-position: 0px -33px; }
+.language:hover { background-position: 0px 0px; }
+#bg { position: absolute; width: 100%; }
+.logo { position: relative; height: 700px; width: 1200px; display: block; text-indent: -9999px; overflow: hidden; background-image: url('logo.png'); background-repeat: no-repeat; background-position: 170px -5px; margin: 0px auto; }
+.ifword { display: none; }
+.contacts { position: absolute; top: 240px; left: 10px; height: 205px; width: 180px; text-indent: -9999px; overflow: hidden; display: block; background-image: url('contacts.png'); background-repeat: no-repeat; background-position: 0px 0px; }
+#contacts_link { height: 120px; width: 120px; margin-left: 30px; margin-top: 30px; display: block; }
+.portfolio { position: absolute; top: 374px; left: 202px; height: 322px; width: 272px; text-indent: -9999px; overflow: hidden; display: block; background-image: url('portfolio_plus.png'); background-repeat: no-repeat; background-position: 0px 0px; }
+#portfolio_link { height: 180px; width: 210px; margin-left: 30px; margin-top: 35px; display: block; }
+.profile { position: absolute; top: 305px; left: 640px; height: 322px; width: 225px; text-indent: -9999px; overflow: hidden; display: block; background-image: url('profile.png'); background-repeat: no-repeat; background-position: 0px 0px; }
+#profile_link { height: 155px; width: 170px; margin-left: 35px; margin-top: 30px; display: block; }
+.blog { position: absolute; top: 95px; left: 907px; height: 440px; width: 275px; background-image: url('blog.png'); background-repeat: no-repeat; background-position: 0px 0px; }
+#blog_link { height: 155px; width: 150px; display: block; }
+.wrapper { min-height: 100%; height: auto ! important; margin: 0px auto -75px; }
+.footer, .push { height: 75px; }
+.footer_help { height: 730px; width: 100%; }
+.footer { width: 100%; min-width: 1200px; }
+.line1 { width: 100%; height: 50px; }
+.line2 { width: 100%; height: 25px; background-image: url('footer_bg.png'); background-repeat: repeat; }
+.footer_right { float: right; display: block; text-align: right; font-size: 12px; color: rgb(109, 109, 109); padding-top: 5px; padding-right: 10px; }
+.footer_right a { text-decoration: none; border-bottom: 1px dotted; }
+.footer_right a:hover { text-decoration: none; }
+.copyright { font-size: 12px; color: rgb(109, 109, 109); padding-top: 4px; float: left; padding-left: 10px; }
+.copyright a { text-decoration: none; border-bottom: 1px dotted; }
+.copyright a:hover { text-decoration: none; color: rgb(255, 255, 255); }
+.cc { background-image: url('cc_logo.png'); background-position: 0px 0px; background-repeat: no-repeat; width: 17px; height: 17px; display: inline-block; vertical-align: middle; }
+.apl { background-image: url('apple_logo.png'); background-position: 0px 0px; background-repeat: no-repeat; width: 17px; height: 17px; display: inline-block; vertical-align: middle; text-indent: -9999px; overflow: hidden; }
+.awards { float: left; }
+.awards_button { float: left; width: 122px; height: 44px; margin-bottom: 6px; background-image: url('awards.png'); background-repeat: no-repeat; background-position: 0px -88px; }
+.awards_button:hover, .awards_button:active { background-position: 0px -44px; }
+.awards_button_back { display: block; float: left; width: 122px; height: 44px; margin-left: -122px; margin-bottom: 6px; background-image: url('awards_active.png'); background-repeat: no-repeat; background-position: 0px 0px; }
+.tray { width: 600px; height: 45px; }
+.tray ul { list-style: none outside none; }
+.tray li { display: inline; }
+.tray img { border: 0px none; }
+.tray li a { display: block; float: left; text-decoration: none; border: 0px none; padding-right: 3px; }
+#tt { position: absolute; display: block; background: url('tt_left.gif') no-repeat scroll left top transparent; overflow: hidden; }
+#tttop { display: block; height: 5px; margin-left: 5px; background: url('tt_top.gif') no-repeat scroll right top transparent; overflow: hidden; }
+#ttcont { display: block; padding: 2px 12px 3px 7px; margin-left: 5px; background: none repeat scroll 0% 0% rgb(102, 102, 102); color: rgb(255, 255, 255); font-size: 12px; overflow: hidden; }
+#ttbot { display: block; height: 5px; margin-left: 5px; background: url('tt_bottom.gif') no-repeat scroll right top transparent; overflow: hidden; }
+.close_button { width: 16px; height: 16px; margin-top: 5px; background-image: url('close.png'); background-repeat: no-repeat; background-position: 0px 0px; }
+.divider { padding-left: 4px; padding-right: 4px; color: rgb(74, 74, 74); }
+#world { float: right; width: 590px; height: 42px; margin-bottom: 8px; text-indent: -9999px; overflow: hidden; background-image: url('world.png'); background-repeat: no-repeat; background-position: 23px -42px; }
+#world:hover { background-position: 23px 0px; }
+
+/* ::::: http://alexarts.ru/en/css/awards.css ::::: */
+
+.dc { width: 44px; height: 44px; background-image: url('dc.png'); background-repeat: no-repeat; background-position: 0px 0px; cursor: pointer; }
+.sm { width: 44px; height: 44px; background-image: url('sm.png'); background-repeat: no-repeat; background-position: 0px 0px; cursor: pointer; }
+.tuts { width: 44px; height: 44px; background-image: url('tuts.png'); background-repeat: no-repeat; background-position: 0px 0px; cursor: pointer; }
+.wbdl { width: 44px; height: 44px; background-image: url('wbdl.png'); background-repeat: no-repeat; background-position: 0px 0px; cursor: pointer; }
+.cssmania { width: 44px; height: 44px; background-image: url('cssmania.png'); background-repeat: no-repeat; background-position: 0px 0px; cursor: pointer; }
+.bestdesigns { width: 44px; height: 44px; background-image: url('bestdesigns.png'); background-repeat: no-repeat; background-position: 0px 0px; cursor: pointer; }
+.most_inspired { width: 44px; height: 44px; background-image: url('most_inspired.png'); background-repeat: no-repeat; background-position: 0px 0px; cursor: pointer; }
+.stud_startup { width: 44px; height: 44px; background-image: url('student_startup.png'); background-repeat: no-repeat; background-position: 0px 0px; cursor: pointer; }
+.mickm { width: 44px; height: 44px; background-image: url('mickm.png'); background-repeat: no-repeat; background-position: 0px 0px; cursor: pointer; }
+.rhcp { width: 44px; height: 44px; background-image: url('rhcp.png'); background-repeat: no-repeat; background-position: 0px 0px; cursor: pointer; }
+
+/* ::::: http://alexarts.ru/en/css/twitter.css ::::: */
+
+#twitter_div { width: 140px; height: 140px; text-align: center; margin-left: 35px; margin-top: 47px; text-indent: 0px; }
+#twitter_div a { font-size: 14px; color: rgb(59, 192, 239); text-decoration: none; border-bottom: 1px dotted; }
+#twitter_div a:hover { font-size: 14px; color: rgb(59, 192, 239); text-decoration: none; border: 0px none; }
+#twitter_update_list { font-family: Trebuchet MS; text-decoration: none; word-spacing: normal; text-align: center; letter-spacing: 0px; line-height: 13px; font-size: 11px; color: rgb(75, 139, 185); width: 140px; height: 110px; list-style: none outside none; display: table-cell; vertical-align: middle; }
+#twitter_update_list a { font-size: 11px; color: rgb(59, 192, 239); text-decoration: underline; border: 0px none; }
+#twitter_update_list a:hover { font-size: 11px; color: rgb(59, 192, 239); text-decoration: none; border: 0px none; }
+
+/* ::::: http://alexarts.ru/en/css/jquery.fancybox.css ::::: */
+
+html, body { height: 100%; }
+div#fancy_overlay { position: fixed; top: 0px; left: 0px; width: 100%; height: 100%; background-color: rgb(0, 0, 0); display: none; z-index: 30; }
+* html div#fancy_overlay { position: absolute; }
+div#fancy_wrap { text-align: left; }
+div#fancy_outer { position: absolute; top: 0px; left: 0px; z-index: 90; padding: 5px 18px 0px; margin: 0px; overflow: hidden; background: none repeat scroll 0% 0% transparent; display: none; }
+div#fancy_inner { position: relative; width: 100%; height: 100%; }
+div#fancy_content { margin: 0px; z-index: 100; position: absolute; }
+div#fancy_div { background: none repeat scroll 0% 0% rgb(0, 0, 0); color: rgb(255, 255, 255); height: 100%; width: 100%; z-index: 100; }
+img#fancy_img { position: absolute; top: 0px; left: 0px; border: 0px none; padding: 0px; margin: 0px; z-index: 100; width: 100%; height: 100%; }
+div#fancy_close { position: absolute; top: 10px; right: 14px; height: 30px; width: 30px; cursor: pointer; z-index: 181; display: none; }
+#fancy_frame { position: relative; width: 100%; height: 100%; display: none; }
+.fancy_bigIframe { position: absolute; top: 0px; left: 0px; width: 100%; height: 100%; background: none repeat scroll 0% 0% transparent; }
